@@ -9,6 +9,7 @@ never gonna give you up never gonna let you down HAHA
 911 what's you're emergency
 my brain isn't braining
 we die we hate we truth
+my dog and cats are in you're walls, *cries*
 `.split('\n'); splashes.splice(0, 1); splashes.splice(splashes.length - 1, 1);
 // stuff after split() is so it doesnt think the empty space after/before the ` is a splash
 
