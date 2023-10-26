@@ -5,9 +5,9 @@
 }
 
 @keyframes fadeslideIn {
-	0% { opacity: 0; transform: translateY(-150%); }
+	0% { opacity: 0; -webkit-transform: translateY(-150%); transform: translateY(-150%); }
 	3% { opacity: 0; }
-	100% { opacity: 1; transform: translateY(0%); }
+	100% { opacity: 1; -webkit-transform: translateY(0%); transform: translateY(0%); }
 }
 
 ::-webkit-scrollbar {
@@ -16,6 +16,7 @@
 
 :root {
 	font-family: 'Twemoji', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
@@ -31,6 +32,7 @@ body {
 	background-color: black;
 	color: white;
 	animation: fadeslideIn 2s;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1 {
