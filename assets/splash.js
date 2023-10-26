@@ -3,6 +3,7 @@ designed by maxxus and chris
 "He has my full respect, he made us a full website, he's working hard, give him a raise" - chris
 "He's the best guy ever" - chris
 amogus
+mogus
 WE LIVE WE LOVE WE LIE!!!!!
 look behind you
 never gonna give you up never gonna let you down HAHA
@@ -10,6 +11,14 @@ never gonna give you up never gonna let you down HAHA
 my brain isn't braining
 we die we hate we truth
 my dog and cats are in you're walls, *cries*
+grabbing ip...
+sorin x > synapse sex
+oh my days
+splash.js
+wSplash
+your're'r
+it's it's not its
+mmmmmmmm icecream so good
 `.split('\n'); splashes.splice(0, 1); splashes.splice(splashes.length - 1, 1);
 // stuff after split() is so it doesnt think the empty space after/before the ` is a splash
 
