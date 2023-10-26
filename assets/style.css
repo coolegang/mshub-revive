@@ -150,6 +150,11 @@ td {
 	width: 140px;
 }
 
+.bigtt .bigtttext {
+    margin-left: -100px; /* width / 2 */
+	width: 200px;
+}
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
