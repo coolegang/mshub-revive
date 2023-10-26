@@ -97,6 +97,15 @@ td {
 	background-image: url("doors.webp");
 }
 
+.legaldisclamerbox {
+	color: black;
+	background-color: gray;
+	border: 14px solid black;
+	border-radius: 15px;
+	padding: 15px 15px;
+	margin: 5px;
+}
+
 .navlink {
 	display: inline-block;
 	margin-bottom: 3px;
