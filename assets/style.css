@@ -1,0 +1,156 @@
+@font-face {
+	font-family: "Twemoji";
+	src: url(fonts/Twemoji.ttf) format("truetype");
+	unicode-range: U+00AE, U+203C, U+2049, U+20E3, U+2122, U+2139, U+2194-2199, U+21A9-21AA, U+231A, U+231B, U+2328, U+23CF, U+23E9-23F3, U+23F8-23FA, U+24C2, U+25AA, U+25AB, U+25B6, U+25C0, U+25FB-25FE, U+2600-27EF, U+2934, U+2935, U+2B00-2BFF, U+3030, U+303D, U+3297, U+3299, U+1F000-1F02F, U+1F0A0-1F0FF, U+1F100-1F64F, U+1F680-1F6FF, U+1F910-1F96B, U+1F980-1F9E0;
+}
+
+@keyframes fadeslideIn {
+	0% { opacity: 0; transform: translateY(-150%); }
+	3% { opacity: 0; }
+	100% { opacity: 1; transform: translateY(0%); }
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 19px;
+	padding: 0, 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 25px;
+	font-family: 'Twemoji', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: black;
+	color: white;
+	animation: fadeslideIn 2s;
+}
+
+h1 {
+	font-family: 'Twemoji', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	font-size: 40px;
+	padding-bottom: 25px;
+}
+
+h2 {
+	font-family: 'Twemoji', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	font-size: 30px;
+}
+
+h3 {
+	margin: 0;
+	font-size: 25px;
+}
+
+p {
+	font-size: 20px;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+}
+
+td {
+	max-width: 1350px;
+	width: 1350px;
+	vertical-align: baseline;
+	margin: auto;
+}
+
+#container {
+	max-width: 1800px;
+	margin: 0 auto;
+	display: grid;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+}
+
+.box {
+	/*background-color: #1a1a1aa8;*/
+	background-color: transparent;
+	border: 2px solid #383838;
+	border-radius: 15px;
+	padding: 15px 15px;
+	margin: 5px;
+	background-image: url("doors.png");
+}
+
+.navlink {
+	display: inline-block;
+	margin-bottom: 3px;
+	color: blue;
+}
+
+.center {
+	text-align: center;
+}
+
+.pfp {
+	width: 64px;
+	height: 64px;
+	margin: 5px;
+}
+
+.pfpimg {
+	width: 64px;
+	height: 64px;
+	transition: transform .2s;
+	border-radius: 30%;
+	margin: 6px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.pfpimg:hover {
+	transform: scale(1.2);
+}
+
+.bottom {
+	padding-top: 25px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltipname {
+	font-size: 22px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
