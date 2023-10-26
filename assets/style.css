@@ -146,7 +146,8 @@ td {
     z-index: 1;
     top: 150%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -70px; /* width / 2 */
+	width: 140px;
 }
 
 .tooltip:hover .tooltiptext {
