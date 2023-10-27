@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Perform actual authentication on the server here.
         // For this example, we'll use a simple username and password.
-        if (username === "admin" && password === "password") {
+        if (username === "rob_secret_login_bo_virus_pls_fnsuinfiujns" && password === "s5345345fgdisjfi3j84df") {
             isLoggedIn = true;
             loginMessage.textContent = "Login successful!";
             loginForm.style.display = "none"; // Hide login form
