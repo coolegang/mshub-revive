@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const loginMessage = document.getElementById("login-message");
     const whitelistForm = document.getElementById("whitelist-form");
     const message = document.getElementById("message");
+    const fs = require('fs');
 
     let isLoggedIn = false; // Flag to track login status
 
@@ -37,9 +38,26 @@ document.addEventListener("DOMContentLoaded", function () {
         const hwid = document.getElementById("hwid").value;
         const discord = document.getElementById("discord").value;
 
-        // Add user to the whitelist file or perform any necessary actions on the server.
-        // Make sure to validate and sanitize the input and handle errors properly.
-        // ...
+        fs.readFile('not_whitelist.lua', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).json({ success: false, message: "Error reading whitelist file" });
+        } else {
+            // Append the new data to the existing content
+            const whitelistEntry = `"${key}", "${hwid}", "${discord}"\n`;
+            const updatedContent = data + whitelistEntry;
+
+            // Write the updated content back to the whitelist file
+            fs.writeFile('not_whitelist.lua', updatedContent, (err) => {
+                if (err) {
+                    console.error(err);
+                    res.status(500).json({ success: false, message: "Error updating whitelist file" });
+                } else {
+                    res.json({ success: true, message: "Added to whitelist successfully" });
+                }
+            });
+        }
+    });
 
         message.textContent = "User added to whitelist!";
     });
