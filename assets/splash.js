@@ -11,8 +11,7 @@ never gonna give you up never gonna let you down HAHA
 my brain isn't braining
 we die we hate we truth
 my dog and cats are in you're walls, *cries*
-grabbing ip...
-sorin x > synapse sex
+grabbing ip... (joke)
 oh my days
 splash.js
 wSplash
