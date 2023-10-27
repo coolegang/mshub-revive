@@ -40,22 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         fs.readFile('not_whitelist.lua', 'utf8', (err, data) => {
         if (err) {
-            console.error(err);
-            res.status(500).json({ success: false, message: "Error reading whitelist file" });
         } else {
             // Append the new data to the existing content
             const whitelistEntry = `"${key}", "${hwid}", "${discord}"\n`;
-            const updatedContent = data + whitelistEntry;
+            const updatedContent =  whitelistEntry;
 
             // Write the updated content back to the whitelist file
-            fs.writeFile('not_whitelist.lua', updatedContent, (err) => {
-                if (err) {
-                    console.error(err);
-                    res.status(500).json({ success: false, message: "Error updating whitelist file" });
-                } else {
-                    res.json({ success: true, message: "Added to whitelist successfully" });
-                }
-            });
+            fs.writeFile('not_whitelist.lua', updatedContent)
         }
     });
 
