@@ -1,0 +1,2 @@
+--example for whitelist cuz im stupid i will add a dev panel later for this!1!1!111!!
+--"key", "hwid", "discord",
