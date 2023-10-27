@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const loginMessage = document.getElementById("login-message");
     const whitelistForm = document.getElementById("whitelist-form");
     const message = document.getElementById("message");
-    const fs = require('fs');
 
     let isLoggedIn = false; // Flag to track login status
 
