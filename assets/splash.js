@@ -1,8 +1,8 @@
 const splashes = `
 😡
 designed by maxxus and chris
-"He has my full respect, he made us a full website, he's working hard, give him a raise" - chris
-"He's the best guy ever" - chris
+FNAF MOVIE!!!!! 
+FIVE NIGHTS AT FREDDYS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 amogus
 mogus
 WE LIVE WE LOVE WE LIE!!!!!
