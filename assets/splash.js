@@ -1,6 +1,6 @@
 const splashes = `
 😡
-designed by maxxus and chris
+designed by rob_dcg_YT
 FNAF MOVIE!!!!! 
 FIVE NIGHTS AT FREDDYS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 amogus
