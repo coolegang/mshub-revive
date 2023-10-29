@@ -1,18 +1,17 @@
 const splashes = `
 😡
-designed by rob_dcg_YT
+designed by maxxus and rob_dcg_YT
 FNAF MOVIE!!!!! 
 FIVE NIGHTS AT FREDDYS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 amogus
 mogus
 WE LIVE WE LOVE WE LIE!!!!!
 look behind you
-never gonna give you up never gonna let you down HAHA
+never gonna give you up never gonna let you down
 911 what's you're emergency
 my brain isn't braining
 we die we hate we truth
-my dog and cats are in you're walls, *cries*
-grabbing ip... (joke)
+grabbing ip...
 oh my days
 splash.js
 wSplash
