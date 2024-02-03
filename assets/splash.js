@@ -1,23 +1,14 @@
 const splashes = `
 😡
 designed by maxxus and rob_dcg_YT
-FNAF MOVIE!!!!! 
-FIVE NIGHTS AT FREDDYS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-amogus
-mogus
-WE LIVE WE LOVE WE LIE!!!!!
 look behind you
-never gonna give you up never gonna let you down
 911 what's you're emergency
 my brain isn't braining
-we die we hate we truth
-grabbing ip...
 oh my days
 splash.js
 wSplash
 your're'r
 it's it's not its
-mmmmmmmm icecream so good
 `.split('\n'); splashes.splice(0, 1); splashes.splice(splashes.length - 1, 1);
 // stuff after split() is so it doesnt think the empty space after/before the ` is a splash
 
