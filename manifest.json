@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
-  "description": "NullHub is a fan-made project that is a copy of MSHUB for users that want to experience MSHUB after it got discontinued by mstudio45 on October 24 2023",
+  "description": "NullHub is a roblox hub designed to assist players with its various of supported games and features",
   "icons": [
     {
       "src": "assets/logo.png",
