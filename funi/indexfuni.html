@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="block-menu">
+        <h2>Blocks</h2>
+        <div class="block" draggable="true" data-type="on_ready">On Ready</div>
+        <div class="block" draggable="true" data-type="on_message">On Message</div>
+        <div class="block" draggable="true" data-type="command">Command</div>
+        <div class="block" draggable="true" data-type="send_message">Send Message</div>
+        <div class="block" draggable="true" data-type="custom_function">Custom Function</div>
+        <div class="block" draggable="true" data-type="call_function">Call Function</div>
+        <div class="block" draggable="true" data-type="add_role">Add Role</div>
+        <div class="block" draggable="true" data-type="remove_role">Remove Role</div>
+        <div class="block" draggable="true" data-type="create_channel">Create Channel</div>
+        <div class="block" draggable="true" data-type="delete_channel">Delete Channel</div>
+    </div>
+    <div id="workspace">
+        <h2>Workspace</h2>
+        <div id="drop-area"></div>
+    </div>
+    <div id="options">
+        <h2>Options</h2>
+        <label for="language-select">Export Language:</label>
+        <select id="language-select">
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+    </div>
+    <div id="stage">
+        <h2>Stage</h2>
+        <button id="export-btn">Export</button>
+        <textarea id="output" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
