@@ -28,7 +28,18 @@
 }
 </style>
 
+<script> 
+function amog() {
+  var copyText = document.getElementById("textstufffr");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+alert("copied script!");
+}
+</script>
+
 <html lang="en">
+	<input hidden type="text" value='loadstring(game:HttpGet("https://raw.githubusercontent.com/NuIlFire/NullFire/main/loader.lua"))()' id="textstufffr">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,7 +82,7 @@
 						<br>
 						<br><br>
 						<h2>Script</h2>
-						<button class="button getscript" onClick = "window.location = 'discord.html'"">Get Script</button>
+						<button class="button getscript" onClick = "amog()"">Get Script</button>
 						<br><be>
 						<br><br>
 						<h2>Developers</h2>
